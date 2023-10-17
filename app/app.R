@@ -4,17 +4,17 @@
 
 # Add code for the following
 # 
-# 'azmet-shiny-template.html': <!-- Google tag (gtag.js) -->
-# 'azmet-shiny-template.html': <!-- CSS specific to this AZMet Shiny app -->
+# 'climategem-shiny-template.html': <!-- Google tag (gtag.js) -->
+# 'climategem-shiny-template.html': <!-- CSS specific to this climateGEM Shiny app -->
 
 # Edit the following [in square brackets]:
 # 
-# 'azmet-shiny-template.html': <title>[Web Application Title] | Arizona Meteorological Network</title>
-# 'azmet-shiny-template.html': <h1 class="hidden title"><span class="field field--name-title field--type-string field--label-hidden">[Hidden Title]</span></h1>
-# 'azmet-shiny-template.html': <article role="article" about="[/application-areas]" class="node node--type-az-flexible-page node--view-mode-full clearfix">
-# 'azmet-shiny-template.html': <span class="lm-az"></span>
-# 'azmet-shiny-template.html': <h1 class="mt-4 d-inline">[Web Tool Name]</h1>
-# 'azmet-shiny-template.html': <h4 class="mb-0 mt-2">[High-level text summary]</h4>
+# 'climategem-shiny-template.html': <title>[Web Application Title] | climateGEM</title>
+# 'climategem-shiny-template.html': <h1 class="hidden title"><span class="field field--name-title field--type-string field--label-hidden">[Hidden Title]</span></h1>
+# 'climategem-shiny-template.html': <article role="article" about="[/application-areas]" class="node node--type-az-flexible-page node--view-mode-full clearfix">
+# 'climategem-shiny-template.html': <span class="lm-az"></span>
+# 'climategem-shiny-template.html': <h1 class="mt-4 d-inline">[Web Tool Name]</h1>
+# 'climategem-shiny-template.html': <h4 class="mb-0 mt-2">[High-level text summary]</h4>
 
 
 # Libraries
@@ -35,7 +35,7 @@ library(vroom)
 
 ui <- htmltools::htmlTemplate(
   
-  "azmet-shiny-template.html",
+  "climategem-shiny-template.html",
   
   sidebarLayout = sidebarLayout(
     position = "left",
